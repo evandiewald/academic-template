@@ -19,16 +19,31 @@
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  
+    <style> 
+      /* Modify the background color */ 
+        
+      .navbar-custom { 
+          background-color: #A6192E; 
+      } 
+      /* Modify brand and text color */ 
+        
+      .navbar-custom .navbar-brand, 
+      .navbar-custom .navbar-text { 
+          color: green; 
+      } 
+  </style>  
+  
   </head>
 
   <body>
     <!-- header -->
     <header>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md fixed-top bg-dark bg-udc">
+      <nav class="navbar navbar-custom navbar-expand-md fixed-top">
         <div class="container">
           <a class="navbar-brand" href="https://www.cmu.edu/">
-            <img src="img/cmu-wordmark-stacked-w.png" width="200" height="30" alt="UDC">
+            <img src="img/cmu-wordmark-stacked-w.png" height=50 alt="CMU">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i></button>
@@ -37,20 +52,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
                 <li class="nav-item">
-              </li>
+              <!-- </li>
                 <a class="nav-link" href="#teach">Teaching</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Trajectory</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#pubs">Publications</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#education">Trajectory</a>
-              </li>
             </ul>
           </div>
-          <a class="navbar-brand" href="http://cmu.edu/index.html">
-    			    <img src="img/cmu-wordmark-stacked-w.png" width="162" height="30" alt="GAC">
-          </a>
         </div>
     	</nav>
     </header>
@@ -60,189 +72,124 @@
     <div class="row">
       <div class="col-4 mx-auto d-block">
         <div class="row mt-5 mx-auto d-block text-center">
-          <img src="img/profile.png" class="img-fluid rounded-circle mb-3" alt="Profile picture">
+          <img src="img/profile.jpg" class="img-fluid rounded-circle mb-3" alt="Profile picture">
           <h4>Evan Diewald</h4>
           <p class="lead">PhD Candidate</p>
-          <p class="font-weight-light">Carnegie Mellon University (<a
-href="https://www.cmu.edu/"><abbr title="Carnegie Mellon University">UDC</abbr></a>)<br>Beuth Additive Lab (<a
-href="https://sites.google.com/view/beuthadditivelab/home" ><abbr title="Beuth Additive Lab">Beuth Lab</abbr></a>)</p>
+          <p class="font-weight-light"><a href="https://www.cmu.edu/">Carnegie Mellon University</a><br><a href="https://sites.google.com/view/beuthadditivelab/home">Beuth Additive Lab </a></p>
         </div>
         <hr>
         <div class="row mx-auto d-block">
-        <p class="lead text-center "><a href="mailto:ediewald@andrew.cmu.edu"><i class="far fa-envelope"></i></a> ediewald [at] cmu.edu</p>
+        <p class="lead text-center "><a href="mailto:ediewald@andrew.cmu.edu"><i class="far fa-envelope"></i></a> ediewald@cmu.edu</p>
         <ul class="social-icons text-center">
-          	<li><a class="scholar" href="https://scholar.google.es/citations?user=MSmk8RAAAAAJ&hl=es&oi=ao" title="Scholar">Scholar</a></li>
-          	<li><a class="orcid" href="https://orcid.org/0000-0002-0184-8527" title="ORCID">ORCID</a></li>
-          	<li><a class="linkedin" href="https://www.linkedin.com/in/marcoshorro/" title="Linkedin">LinkedIn</a></li>
-          	<li><a class="researchgate" href="https://www.researchgate.net/profile/Marcos_Horro_Varela" title="ResearchGate">ResearchGate</a></li>
-          	<li><a class="twitter" href="https://twitter.com/markoshorro" title="Twitter">Twitter</a></li>
-          	<li><a class="instagram" href="https://www.instagram.com/markoshorro/" title="Instagram">Instagram</a></li>
-          	<li><a class="flickr" href="https://www.flickr.com/photos/markos-design/" title="Flickr">Flickr</a></li>
+          	<li><a class="scholar" href="https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=AJsN-F5mZWxUc6LkdD-Jj7k_QXCl41Y5liLZNVcGw57yBTBpzbOh9ABzv9j0FWe3C6q6Wscgn3uBaICQBPge9sffH_svpThi2w&user=PqHDYuYAAAAJ" title="Scholar">Scholar</a></li>
+          	<li><a class="linkedin" href="www.linkedin.com/in/evan-diewald-68786413b" title="Linkedin">LinkedIn</a></li>
+            <li><a class="github" href="https://github.com/evandiewald" title="Github">Github</a></li>
+            <li><a class="blog" href="https://medium.com/@evandiewald" title="Blog">Personal Blog</a></li>
         </ul>
         <hr>
         <p class="text-center font-weight-light">
-      	<i class="far fa-flag"></i> Proud <b><a href="https://www.google.es/maps/place/Galicia/@42.7944603,-9.138824,8z/data=!3m1!4b1!4m5!3m4!1s0xd2e7c868908156b:0xe1ac7930138c9642!8m2!3d42.5750554!4d-8.1338558">Galician</a></b>
-      	<br><br>
-
-      	<i class="far fa-user-circle"></i> <a href="http://gac.udc.es/~marcos.horro/cvpage/" alt="CV">Interactive CV</a><br>
-        <i class="fas fa-birthday-cake"></i> Since 1994<br><br>
-        <i class="far fa-futbol"></i>	<a href="https://www.rcdeportivo.es/">Football</a> and <i class="fas fa-motorcycle"></i> <a href="http://www.valentinorossi.com/en/">motorcycle</a><br>
-        <i class="fab fa-blogger"></i> <a href="http://blog.marcoshorro.com/" alt="Blog">Personal blog</a> (spanish)
-        </p>
-        <hr>
-        <p class="text-monospace">+34 881 011 376 (extension 1376)<br>
-        Facultade de Informática<br>Campus Elviña S/N, 15071<br>
-      	Laboratorio 0.2
-        </p>
-        <a href="https://stackoverflow.com/users/2856041/horro">
-    	  <img class="separator" src="https://stackoverflow.com/users/flair/2856041.png" width="208" height="58" alt="profile for horro at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for horro at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-        </a>
-        <hr>
       </div>
       </div>
       <div class="col-8">
         <section id="projects" class="mt-5">
           <h3 class="display-5">Projects</h3><hr>
           <ul class="timelinelist">
-            <li><a href="https://github.com/markoshorro/gem5McPATparse">gem5McPATparse</a> <span class="badge badge-primary">Flex, Bison, C++</span> - translates the output of gem5 to McPAT format</li>
-            <li><a href="https://github.com/markoshorro/gem5-spm">gem5-spm</a> <span class="badge badge-info">C++, Python</span> - implementation of scratchpad memories in gem5 simulator</li>
-            <li><a href="https://bitbucket.org/markoshorro/iconmunicate/src/master/">iConmunicate</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-success">Android, Nearby, BT</span> - messenger over bluetooth having a gallery of icons</li>
-            <li><a href="https://github.com/markoshorro/look-around">Look Around</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-success">Android, sensors, Unity, VR</span> - reading QR retrieves information of places of interest, allowing to visualize it using virtual reality through the camera</li>
-            <li><a href="https://github.com/markoshorro/musicsort">MusicSort</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-info">Python, Django, APIs</span> - retrivies all the information of a set of songs uploaded, such as metadata, album cover, lyrics, etc.</li>
+            <li><a href="https://www.hackster.io/354300/longhive-12d952">LongHive</a> <span class="badge badge-primary">Python, TensorFlow, Sensors</span> An end-to-end beehive monitoring solution enabled by the Helium Network and deep learning | <i class="fas fa-trophy"></i> Grand Prize, Hackster #IoTForGood Challenge | Featured in Make: Magazine Vol. 75</li>
+            <li><a href="https://github.com/evandiewald/am-materials-database">Open AM Materials Database</a> <span class="badge badge-pill badge-warning">Pre-Release</span> <span class="badge badge-primary">MongoDB, AWS S3, Web Applications</span> Open-source system for AM data management (ask me for a demo!)</li>
+            <li><a href="https://drive.google.com/file/d/1p5ZtcbwONvk0Jt5SK5vu7k5A6F4ogxqd/view?usp=sharing">GAN-assisted moving heat source simulations</a> <span class="badge badge-primary">ANSYS, TensorFlow</span> Accelerating FEA simulations using semi-analytical solution + generative adversarial networks</li>
+            <li><a href="https://www.hackster.io/evan-diewald/decentralized-climate-monitoring-at-the-point-of-need-95d8bb">Decentralized Climate Monitoring at the Point of Need</a> <span class="badge badge-primary">Blockchain, Postgres, Edge Computing</span> A Distributed, Blockchain-Enabled Network of Low-Cost Weather Stations for Scalable, Hyperlocal Climate Monitoring</li>
+            <li><a href="https://medium.com/@evandiewald/to-foil-russian-election-interference-i-trained-a-bot-to-tweet-support-for-tom-steyer-7abf45e60f81">“To foil Russian election interference, I trained a bot to tweet support for…Tom Steyer”</a> <span class="badge badge-primary">Deep Learning</span> Personal blog post using OpenAI's GPT-2 natural language processing model to generate synthetic tweets.</li>
           </ul>
-        </section>
-        <section id="teach" class="mt-5">
-          <h3 class="display-5">Teaching</h3>
-          <hr>
-          <h4>Course <span class="badge badge-secondary">2018/2019</span></h4>
-          <ul class="clist">
-            <li>Programación Integrativa <a
-href="https://guiadocente.udc.es/guia_docent/index.php?centre=614&ensenyament=614G01&assignatura=614G01049&idioma=cast&any_academic=2018_19"
-class="badge badge-info">Planning</a> <a href="https://moodle.udc.es/course/view.php?id=51658" class="badge
-badge-primary">Moodle</a>
-</li>
-          </ul>
-        </section>
-        <section id="pubs" class="mt-5">
-          <h3 class="display-5">Publications</h3>
-          <hr>
-          <table id="pubTable" class="display"></table>
-<pre id="bibtex">
-@misc{horrostudy,
-  title={Study of the Intel Knights Landing (KNL) memory system tradeoffs},
-  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan and Kandemir, Mahmut T},
-  year={2017},
-  publisher={13th International Summer School on Advanced Computer Architecture and Compilation for High-Performance and Embedded Systems (ACACES)}
-},
-@inproceedings{horro2016exploracion,
-  title={Exploración y optimización energética de arquitecturas heterogéneas con el framework gem5},
-  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan},
-  booktitle={Actas Jornadas Sarteco},
-  pages={509--516},
-  year={2016}
-}
-@inproceedings{horroarchitectural,
-  title={Architectural exploration of heterogeneous memory systems},
-  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan and Kandemir, Mahmut T},
-  booktitle={19th workshop on Compiler for Parallel Computing},
-  pages={1--8},
-  year={2016}
-}
-@inproceedings{horromat,
-  title={Actividades na Ensinanza Secundaria. Experiencia dun alumno no caso concreto de modelización de focos luminosos},
-  author={Búa, Jose B. and Horro, Marcos},
-  booktitle={VI Congreso de AGAPEMA},
-  pages={1--1},
-  year={2012}
-}
-</pre>
-        </section>
+        </section>      
         <br>
         <section id="education" class="mt-5">
           <h3 class="display-5">Trajectory</h3>
           <hr>
           <ul class="timeline">
             <li class="timeline">
-              <div class="timeline-badge warning"><i class="fas fa-briefcase"></i></div>
+              <div class="timeline-badge primary"><i class="fas fa-university"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">PhD Candidate</h4>
-                  <h5 class="timeline-subtitle">Computer Architecture Group</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Oct 2017 - present</small></p>
+                  <h5 class="timeline-subtitle">Beuth Additive Lab</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Aug 2019 - present</small></p>
                 </div>
                 <div class="timeline-body">
-                  <p><i class="fas fa-file-signature"></i> FPU fellowship</p>
+                  <p>Research focus in additive manufacturing, but diverse projects include deep learning, database management, and blockchain development<br><i class="fab fa-blogger"></i> Treasurer, Mechanical Engineering Graduate Student Organization</p>
                 </div>
               </div>
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-badge primary"><i class="fas fa-university"></i></div>
+              <div class="timeline-badge warning"><i class="fas fa-briefcase"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">MSc Computer Engineering</h4>
-                  <h5 class="timeline-subtitle">University of A Coruña</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Oct 2016 - Feb 2018</small></p>
+                  <h4 class="timeline-title">Technical Consultant</h4>
+                  <h5 class="timeline-subtitle">Wireless Sensor Technologies LLC</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Oct 2020 - present </small></p>
                 </div>
                 <div class="timeline-body">
-                  <p>90 credits course to complete my engineering studies</p>
+                  <p>Started side business as consultant for application-focused AI, edge computing, and wireless sensing<br><i class="fas fa-briefcase"></i> Working with client to use audio signals to detect respiratory illness in henhouses.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge warning"><i class="fas fa-briefcase"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Research & Development Intern</h4>
+                  <h5 class="timeline-subtitle">Siemens</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> May 2019 - Aug 2020 </small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>UTSR Gas Turbine Industrial Fellowship | <a href=http://www2.swri.org/www2/utsr/reports/diewald-report.pdf>Final Report</a></p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge warning"><i class="fas fa-briefcase"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Engineering Support Intern</h4>
+                  <h5 class="timeline-subtitle">Applied Research Laboratory</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> May 2018 - May 2019</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Focus on process monitoring for additive manufacturing<br>Provisional Patent: U.S. Patent Application No. 63/063707</p>
                 </div>
               </div>
             </li>
             <li class="timeline">
-              <div class="timeline-badge warning"><i class="fas fa-briefcase"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Research intern</h4>
-                  <h5 class="timeline-subtitle">Computer Architecture Group</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Jun 2016 - Sep 2017</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p>Continuation of previous internship and working on topics related with <abbr title="high performance computing">HPC</abbr></p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline">
-              <div class="timeline-badge warning"><i class="fas fa-briefcase"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Internship</h4>
-                  <h5 class="timeline-subtitle">Department of Electronics and Systems</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Jan 2015 - Jun 2015</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p>Competitive internship to collaborate in a department and initiate to research</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
               <div class="timeline-badge primary"><i class="fas fa-university"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">BSc Computer Engineering</h4>
-                  <h5 class="timeline-subtitle">University of A Coruña</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Sep 2012 - Jun 2016</small></p>
+                  <h4 class="timeline-title">B.S. Mechanical Engineering</h4>
+                  <h5 class="timeline-subtitle">Penn State University</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Aug 2016 - May 2019</small></p>
                 </div>
                 <div class="timeline-body">
-                    Erasmus at <a href="https://www.chalmers.se/en/Pages/default.aspx">Chalmer University of Technology</a> from August 2015 to January 2016<br>
-                    <i class="fas fa-trophy"></i> Best student award of 2016 promotion<br>
-                    <i class="fas fa-trophy"></i> 10/10 Final Degree Project
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge primary"><i class="fas fa-university"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Science baccalaureate</h4>
-                  <h5 class="timeline-subtitle">IES Ramón Cabanillas</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Sep 2010 - Jun 2012</small></p>
-                </div>
-                <div class="timeline-body">
-                    <i class="fas fa-trophy"></i> Best student award of 2012 promotion<br>
+                    Minor in Engineering Mechanics
                 </div>
               </div>
             </li>
         </ul>
+        </section>
+        <section id="pubs" class="mt-5">
+          <h3 class="display-5">Publications</h3>
+          <hr>
+          <table id="pubTable" class="display"></table>
+<pre id="bibtex">
+@article{Imani2019,
+  abstract = {{\textcopyright} 2019 American Society of Mechanical Engineers (ASME). All rights reserved. Additive manufacturing (AM) is a new paradigm in design-driven build of customized products. Nonetheless, mass customization and low-volume production make the AM quality assurance extremely challenging. Advanced imaging provides an unprecedented opportunity to increase information visibility, cope with the product complexity, and enable on-the-fly quality control in AM. However, in situ images of a customized AM build show a high level of layer-to-layer geometry variation, which hampers the use of powerful image-based learning methods such as deep neural networks (DNNs) for flaw detection. Very little has been done on deep learning of variant geometry for image-guided process monitoring and control. The proposed research is aimed at filling this gap by developing a novel machine learning approach that is focused on variant geometry in each layer of the AM build, namely region of interests, for the characterization and detection of layerwise flaws. Specifically, we leverage the computer-aided design (CAD) file to perform shape-to-image registration and to delineate the regions of interest in layerwise images. Next, a hierarchical dyadic partitioning methodology is developed to split layer-to-layer regions of interest into subregions with the same number of pixels to provide freeform geometry analysis. Then, we propose a semiparametric model to characterize the complex spatial patterns in each customized subregion and boost the computational speed. Finally, a DNN model is designed to learn variant geometry in layerwise imaging profiles and detect fine-grained information of flaws. Experimental results show that the proposed deep learning methodology is highly effective to detect flaws in each layer with an accuracy of 92.50 ± 1.03{\%}. This provides a significant opportunity to reduce interlayer variation in AM prior to completion of a build. The proposed methodology can also be generally applicable in a variety of engineering and medical domains that entail customized design, variant geometry, and image-guided process control.},
+  author = {Imani, F. and Chen, R. and Diewald, E. and Reutzel, E. and Yang, H.},
+  doi = {10.1115/1.4044420},
+  issn = {15288935},
+  journal = {Journal of Manufacturing Science and Engineering, Transactions of the ASME},
+  number = {11},
+  title = {{Deep learning of variant geometry in layerwise imaging profiles for additive manufacturing quality control}},
+  volume = {141},
+  year = {2019}
+  } 
+</pre>
         </section>
       </div>
     </div>
@@ -250,7 +197,7 @@ badge-primary">Moodle</a>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"><i class="fas fa-university"></i> Universidade da Coruña. Grupo de Arquitectura de Computadores.</span>
+        <span class="text-muted"><i class="fas fa-copyright"></i> Evan Diewald </span>
       </div>
     </footer>
 
